@@ -1,0 +1,6 @@
+{
+  "title": "transloco ru",
+  "dynamic": "transloco {{value}}",
+  "home": "дом",
+  "alert": "тревога"
+}
