@@ -2,11 +2,11 @@
   <p>{{ t.title }}</p>
   <ul>
     <li>{{ t.home }}</li>
-    <li>{{ t.alert | translocoParams: { value: dynamic } }}</li>
+    <li>{{ t.alert | translocoParams: { value: 'dynamic' } }}</li>
   </ul>
 </ng-container>
 <p>{{ 'home' | transloco }}</p>
-<p>{{ 'alert' | transloco: { value: dynamic } }}</p>
+<p>{{ 'alert' | transloco: { value: 'dynamic' } }}</p>
 
 <select (change)="changeLang($event)">
   <option value="EN">English</option>

@@ -122,8 +122,13 @@
               "devServerTarget": "transloco-getting-started:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "transloco-getting-started"
 }
