@@ -1,7 +1,5 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component } from '@angular/core';
 import { TranslocoService } from '@ngneat/transloco';
-import { Subscription } from 'rxjs';
-import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-root',
@@ -10,8 +8,8 @@ import { take } from 'rxjs/operators';
 })
 export class AppComponent {
   constructor(private service: TranslocoService) {}
-  changeLang(event) {
-  const lang = event.target.value;
-  this.service.setActiveLang(lang.toLowerCase());
+  changeLang(event: { target: { value: string } }): void {
+    const lang = event.target.value;
+    this.service.setActiveLang(lang.toLowerCase());
   }
-  }
+}
