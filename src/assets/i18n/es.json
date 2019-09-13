@@ -1,0 +1,6 @@
+{
+  "title": "transloco es",
+  "dynamic": "transloco {{value}}",
+  "home": "casa",
+  "alert": "alerta"
+}

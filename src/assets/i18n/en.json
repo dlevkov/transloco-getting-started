@@ -1,0 +1,6 @@
+{
+  "title": "transloco en",
+  "dynamic": "transloco {{value}}",
+  "home": "home",
+  "alert": "alert"
+}
